@@ -1,1 +1,15 @@
-
+body{
+      background-color: black;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+.aqua{
+    color: aqua;
+}
+.green{
+    color: rgb(27, 191, 27);
+}
