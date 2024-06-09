@@ -7,9 +7,23 @@ h1{
 h3{
     color: white;
 }
+.aqua2{
+    color: aqua
+}
 .aqua{
-    color: aqua;
+    text-align: center;
+}
+.green2{
+    color: rgb(27, 191, 27)
 }
 .green{
-    color: rgb(27, 191, 27);
+   text-align: center
+    ;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
