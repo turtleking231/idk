@@ -1,7 +1,10 @@
 body{
-      blackbackground-image: linear-gradient(to bottom, black, rgb(33, 33, 33));
+      background-image: linear-gradient(to bottom, black, rgb(33, 33, 33));
       font-family: sans-serif;
       text-align: center;
+}
+h2{
+    color: white;
 }
 h1{
     color: white;
