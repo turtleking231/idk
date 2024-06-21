@@ -1,5 +1,7 @@
 body{
       background-image: linear-gradient(to bottom, black, rgb(33, 33, 33));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       font-family: sans-serif;
       text-align: center;
 }
