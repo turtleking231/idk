@@ -11,6 +11,6 @@ let num = Math.floor(Math.random() * 6);
     } else {
       document.getElementById("c/w").innerHTML = "wrong, click on the button to guess again, it will be a different number tho!";
     }
-    num = Math.floor(Math.random() * 6); // Generate a new number after each guess
+    num = Math.floor(Math.random() * 6); // Generate a new number after each guess ( yes i used chat gpt and instead of removing it, added this)
     console.log(num); // Log the new number immediately
   }
