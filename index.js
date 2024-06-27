@@ -1,4 +1,4 @@
-
+console.log(num)
 document.getElementById("but").onclick = function() {
  let num = Math.floor(Math.random() * 6)
  console.log(num)
