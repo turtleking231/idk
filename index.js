@@ -1,15 +1,10 @@
-console.log(num)
 document.getElementById("but").onclick = function() {
- let num = Math.floor(Math.random() * 6)
- console.log(num)
+  let num = Math.floor(Math.random() * 6);
+  console.log(num);  // Log the number here
 
   if (parseInt(document.getElementById("ans").value) === num) {
-    document.getElementById("c/w").innerHTML = "correct! click on the button to guess again"
+    document.getElementById("c/w").innerHTML = "correct! click on the button to guess again";
+  } else {
+    document.getElementById("c/w").innerHTML = "wrong, click on the button to guess again, it will be a different number tho!";
   }
-  else {
-    document.getElementById("c/w").innerHTML = "wrong, click on the button to guess again, it will be a diffirent number tho!"
-  }
-}
-
-
-
+};
