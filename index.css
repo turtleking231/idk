@@ -36,6 +36,9 @@ h3 {
 }
 .button {
       text-align: center;
+input {
+  font-size: 50px;
+}
 }
 .button2 {
       font-size: x-large;
